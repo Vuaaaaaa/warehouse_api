@@ -1,0 +1,15 @@
+### Test API Lấy danh sách sản phẩm
+GET http://127.0.0.1:5000/products
+
+###
+
+### Test API Thêm sản phẩm mới
+POST http://127.0.0.1:5000/products
+Content-Type: application/json
+
+{
+  "name": "Tai nghe Bluetooth",
+  "price": 1200000,
+  "quantity": 25,
+  "supplier_id": 1
+}
